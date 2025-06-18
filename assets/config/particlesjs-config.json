@@ -1,0 +1,110 @@
+{
+  "particles": {
+    "number": {
+      "value": 298,
+      "density": {
+        "enable": true,
+        "value_area": 8207.135472975635
+      }
+    },
+    "color": {
+      "value": "#335275"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 5,
+        "color": "#541d91"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 1,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 315.65905665290904,
+      "color": "#015787",
+      "opacity": 0.60764368405685,
+      "width": 2.2096133965703633
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 1150.8491508491509,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 1354.6453546453545,
+        "size": 443.5564435564436,
+        "duration": 5.194805194805195,
+        "opacity": 0.8871128871128872,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 183.8161838161838,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": false
+}
